@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+{% load staticfiles %} <!-- New line -->
+
+<html>
+	<head>
+		<title>Rango</title>
+	</head>
+	<body>
+		<h1>I seriously</h1>
+		<div>
+			need professional help! <br />
+		</div>
+		<div>
+			<a href="/rango/">Index</a><br />
+			<img src="{% static 'images/aboutimage.jpg' %}"
+				 alt="I'm joking... maybe..." /> <!-- New line -->
+			<img /> tag like <img src="{{ MEDIA_URL }}kokoci.jpg" 
+			alt="Wtf is that hair."/>
+		</div>
+	</body>
+</html>
