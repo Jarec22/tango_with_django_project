@@ -5,13 +5,15 @@
 				About Rango
 {% endblock %}
 {% block body_block %}
-	<h1>About</h1>
+	<h1>Rango says...</h1>
 	<div>
-		<h2> I seriously need professional help</h2>
+		<h2>here is the about page</h2>
 	</div>
 	<div>
-		<img src="{% static "images/aboutimage.jpg" %}" alt="I'm joking... maybe..." /> 
-		<img src="{{ MEDIA_URL }}kokoci.jpg" alt="Wtf is that hair."/>
+		<img src="{% static "images/aboutimage.jpg" %}" alt="Image of Rango" /> 
+		<img src="{{ MEDIA_URL }}cat.jpg" alt="Image of a cat"/>
 	</div>
 	<hr>
+	<div>
+	 Visits: {{ visits }}
 {% endblock %}
